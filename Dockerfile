@@ -40,8 +40,5 @@ EXPOSE 80
 # EXPOSE MySQL
 EXPOSE 3306
 
-# EXPOSE SSH
-EXPOSE 22
-
 # CMD
 CMD ["supervisord", "-n"]
