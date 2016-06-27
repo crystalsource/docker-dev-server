@@ -5,7 +5,7 @@ MAINTAINER Mike Bertram <contact@crystalsource.de>
 ENV DEBIAN_FRONTEND noninteractive
 
 # Install
-RUN apt-get update && apt-get -y upgrade
+RUN apt-get update
 RUN apt-get -y --force-yes install apache2 mysql-server
 
 # Prepare
