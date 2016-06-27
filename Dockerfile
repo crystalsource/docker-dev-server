@@ -1,4 +1,4 @@
-FROM crystalsource/crystal-webdev-base
+FROM crystalsource/crystal-webdev-base1404
 MAINTAINER Mike Bertram <contact@crystalsource.de>
 
 # Non interactive
